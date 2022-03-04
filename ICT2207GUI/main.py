@@ -1,13 +1,7 @@
 from tkinter import *
-from tkinter import ttk
-import pandas as pd
-from matplotlib.figure import Figure
-from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
-import matplotlib.pyplot as pp
 from tkinter import filedialog, messagebox, ttk
 import tkinter as tk
 #import general
-from datetime import datetime
 
 def drop_inside_list_box(event):
     pass
@@ -18,9 +12,6 @@ def drop_inside_textbox(event):
 def _quit():
     root.quit()  # stops mainloop
     root.destroy()
-
-
-
 
 # Creating GUI
 root = Tk()
